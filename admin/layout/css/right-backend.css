@@ -1,0 +1,107 @@
+/* start main rulez */
+
+@media (min-width: 992px){
+    .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9 {
+        float: right;
+    }
+    .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9 {
+        float: right;
+    }
+}
+@media (min-width: 768px){
+    .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9 {
+        float: right;
+    }
+    .form-horizontal .control-label {
+        text-align: left;
+    }
+    .col-sm-offset-2 {
+        margin-right: 16.66666667%;
+    }
+    .col-sm-offset-5 {
+        margin-right: 41.66666667%;
+    }    
+}
+.pull-right {
+    float: left!important;
+}
+ul {
+    padding: 0; /*  +-+  */
+}
+.asterisk {
+    left: 30px;
+    right: auto;
+}
+/* end main rulez */
+
+/* start selectboxit */
+
+.selectboxit-arrow-container {
+    left: 0;
+    right: auto;
+}
+.selectboxit-text {
+    float: right;
+}
+.selectboxit-container .selectboxit-options {
+    text-align: right;
+}
+.selectboxit-option-icon-container {
+    float: right;
+}
+/* end selectboxit */
+
+/* start bootstrap nav */
+
+@media (min-width: 768px){
+    .navbar-header {
+        float: right;
+    }
+    
+    .navbar-nav {
+        float: right;
+        padding-right: 10px; /*  +-+  */
+    }
+    
+    .navbar-nav>li {
+        float: right;
+    } 
+    
+    .navbar-right {
+        float: left!important;
+        margin-right: -15px;
+    } 
+    
+    .navbar-right .dropdown-menu {
+        left: 0;
+        right: auto;
+    }    
+}
+.navbar-right .dropdown-menu {
+    text-align: right;
+}
+/* end bootstrp nav */
+
+/* start dashboard page */
+
+.latest .comment-box-dashboard i {
+    right: auto;
+    left: 10px;
+}
+
+/* end dashboard page */
+    
+.categories .cat:hover .hidden-btn {
+    left: 10px;
+    right: auto;
+}
+.categories .cat .hidden-btn {
+    left: -120px;
+    right: auto;
+} 
+    
+/* start categories page */
+    
+    
+    
+/* end categories page */    

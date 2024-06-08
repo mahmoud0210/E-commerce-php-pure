@@ -1,0 +1,497 @@
+/* start main rulze */
+
+body {
+    background-color: #dcdde1cf;
+    color: #2f3640
+}
+.thumbnail {
+    background-color: #f5f6fa;
+}
+.xx {
+    background-color: #d0d0d0;
+    box-shadow: 1px 1px 5px 0px #dcdde1,
+                -1px -1px 5px 0px #dcdde1;   
+}
+h1 {
+    color: #353b48;
+}
+hr {
+    border-top-color: #d0d0d0;
+}
+.custom-h1 {
+    background-color: #f5f6fa;
+}
+.custom2-h1 {
+    color: #2f3640;
+}
+.custom-h3 {
+    color: #2f3640;
+}
+.well-success {
+    background-color: #44bd32;
+}
+.well-warning {
+    background-color: #e1b12c;
+}
+/* end main rulze */
+
+/* start bootstrap nav */
+
+.navbar-inverse {
+    background-color: #f5f6fa;
+    box-shadow: 0 2px 2px #dcdde1;
+    border: none;
+}
+.navbar-inverse .navbar-nav>li:hover {
+    background-color: #dcdde1;
+}
+.navbar-inverse .navbar-nav>li>a {
+    background-color: #f5f6fa;
+    color: #2f3640
+}
+.navbar-inverse .navbar-nav>li>a:hover,
+.navbar-inverse .navbar-nav>li>a:focus{
+    color: #2f3640;
+}
+.navbar-inverse .navbar-nav>.open>a,
+.navbar-inverse .navbar-nav>.open>a:focus,
+.navbar-inverse .navbar-nav>.open>a:hover {
+    background-color: #dcdde1;
+    color: #2f3640   
+}
+.navbar .navbar-form button {
+    background-color: #192a56;
+}
+.navbar .navbar-form ul li:hover {
+    background-color: #192a56;
+    color: #f5f6fa;
+}
+.navbar .navbar-form input[type="text"] {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    color: #2f3640;
+}
+.items-in-cart {
+    background-color: #192a56;
+}
+.navbar-toggle {
+    border-color: #192a56;
+    background-color: #192a56;
+}
+.navbar-inverse .navbar-toggle:focus,
+.navbar-inverse .navbar-toggle:hover {
+    background-color: #273c75;
+}
+.navbar-inverse .navbar-collapse,
+.navbar-inverse .navbar-form {
+    border-color: #dcdde1
+}
+.navbar-right .dropdown-menu .cat-childs {
+    background-color: #273c75;  
+}
+.navbar-right .dropdown-menu .cat-childs a:hover {
+    background-color: #f5f6fa;
+    color: #2f3640;    
+}
+.breadcrumb {
+    background-color: #c5c5c5;
+}
+.breadcrumb li,
+.breadcrumb li a,
+.breadcrumb>li+li:before {
+    color: #2f3640;
+}
+.breadcrumb li a:hover {
+    color: #192a56;
+}
+.breadcrumb li.active {
+    color: #192a56;
+}
+@media (min-width: 768px){
+    .navbar-right .dropdown-menu {
+        background-color: #273c75;
+        border-color: #192a56;
+    }  
+    .navbar-right .dropdown-menu  a {
+        
+    } 
+    .navbar-right .dropdown-menu  a:hover {
+        background-color: #f5f6fa;
+        color: #2f3640;
+    }    
+}
+/* end bootstrap nav */
+
+/* start home page */
+
+.cat-show-left ul {
+    background-color: #c23616;
+}
+.cat-show-left ul li:hover {
+    background-color: #e84118;
+}
+.cat-show-left ul li a i {
+    color: #f5f6fa;
+}
+.new-item .left-control,
+.new-item .right-control {
+    background-color: #c23616;
+}
+.new-item .left-control:hover,
+.new-item .right-control:hover {
+    background-color: #e84118;
+}
+/* end home page */
+
+/* start categories page */
+
+.item-box .price-tag{
+    background-color: #192a56;   
+}
+.item-box img.img-responsive {
+    background-color: #f5f6fa;
+}
+.item-box .caption p {
+    color: #2f3640;
+}
+.cart input[type=submit] {
+    background-color: #c23616;
+    border-color: #c23616; 
+}
+.cart span {
+    background-color: #44bd32;
+    border: 1px solid #44bd32;   
+}
+
+/* end categories page*/
+
+/* start profile shops page */
+.information .panel {
+    background-color: #f5f6fa;
+}
+.information .panel .panel-heading {
+    background-color: #192a56;
+}
+.information ul li {
+    color: #2f3640;
+}
+.information ul li:nth-child(odd) {
+    background-color: #dcdde1;
+}
+.information .panel .panel-heading a span .number-notif{
+    color: #192a56;
+}
+.information .subscribers-number{
+    color: #2f3640;
+    background-color: #dcdde1;
+}
+
+form .update-shop-info {;
+    background-color: #192a56;
+    color: #f5f6fa;
+}
+form .update-shop-info:hover {
+    background-color: #273c75;
+}
+
+.my-buys table tr.table-body {
+    border-bottom: 2px solid #273c75;
+    color: #2f3640;
+}
+.my-buys table tr:nth-child(odd) {
+    background-color: #dcdde1;
+}
+.my-buys table tr:nth-child(even) {
+    background-color: #f5f6fa;
+}
+.my-buys table tr.table-head td {
+    background-color: #192a56;
+}
+
+.my-buys .show-more a {
+    background-color: #192a56;
+    color: #f5f6fa;
+    border: 2px solid rgb(208, 208, 208);
+}
+.my-buys .show-more:hover a.rotate-link{
+    border: 2px solid #334e9a
+}
+
+
+.my-comments h1,
+.my-buys h1,
+.my-items h1 {
+    color: #2f3640
+}
+.comments-container .waiting-approve,
+.my-comments .comments-container .approve{
+    color: #f5f6fa;
+    width: 230px;
+    margin: 0 auto 20px auto;
+    border-radius: 5px;
+}
+.my-comments .comments-container .approve {
+    background-color: #44bd32;
+}
+.comments-container .waiting-approve {
+    background-color: #c23616; 
+}
+.my-comments .comments-container hr {
+    margin: 12px 0;
+}
+.my-comments .comments-container .comment-box .second-span {
+    background-color: #192a56;
+    border-radius: 5px;
+}
+.my-comments .comments-container .comment-box .second-span a {
+    color: #f5f6fa;
+    background-color: #192a56
+}
+
+
+.item-box .item-box-control {
+    background-color: #dcdde1;
+    border: 2px solid #a7a5a5;
+    border-left: none;    
+}
+.item-box .item-box-control .item-delete{
+    color: #c23616;    
+}
+.item-box .item-box-control .item-delete:hover{
+    color: #e84118;    
+}
+.item-box .item-box-control .item-edit{
+    color: #e1b12c;
+}
+.item-box .item-box-control .item-edit:hover{
+    color: #fbc531;    
+}
+.notif .panel .panel-heading {
+    background-color: #192a56;
+}
+.notif .panel .panel-body {
+    background-color: #c5c5c5;
+}
+.notif .panel .panel-body .empty {
+    color: #636e72;
+}
+.notif .panel .panel-body ul li {
+    background-color: #e2e3e6
+}
+/* end profile shops page */
+
+/* start showrequests page */
+
+    /*-- add request --*/
+
+.no-requests a {
+    color: #0097e6;
+}
+.shop-cart .item-cart img.img-request {
+    background-color: #f5f6fa;
+}
+
+     /*----*/
+
+.request-control.accept {
+    background-color: #c23616;
+    border-color: #c23616;
+    box-shadow: 0 0 2px #c1c0c0
+}
+.request-control.accepted{
+    background-color: #44bd32;
+    border: 1px solid #44bd32;
+    box-shadow: 0 0 2px #c1c0c0;
+}
+
+
+/* end showrequests page */
+
+/* start shop info */
+.subscribe .subscribed i {
+    color: #192a56;
+}
+/* end shop info */
+
+
+/* start add item psge */
+
+.new-ad .panel {
+    background-color: #f5f6fa;
+}
+.new-ad .panel .panel-heading {
+    background-color: #192a56;
+}
+.interactive-content button {
+    background-color: #192a56;
+}
+.interactive-content ul {
+    background-color: #b2bec3;
+}
+.interactive-content ul li:hover {
+    background-color: #192a56;
+    color: #f5f6fa;
+}
+.details-details .add-detail i {
+    background-color: #c23616;
+}
+.new-ad .item-box .price-tag {
+    background-color: #192a56;
+}
+.new-ad .item-box .caption h3,
+.new-ad .item-box .caption p {
+    color: #2f3640;
+}
+.btn-add-new-item {
+    background-color: #192a56;
+}
+/* end add item psge */
+
+/* start items page */
+
+.item-image .img-thumbnail {
+    background-color: #f5f6fa;
+    border: none;
+}
+.item-details .col-md-9 {
+    background-color: #f5f6fa;
+    color: #2f3640;
+}
+.item-details ul li:nth-child(odd) {
+    background-color: #dcdde1
+}
+.item-details ul li a {
+    color: #0097e6;
+}
+.item-details ul li.tags a {
+    background-color: #44bd32;
+    color: #f5f6fa;
+}
+.item-details ul li.tags a:hover {
+    -webkit-box-shadow: 0px -1px 4px #2c861f, 0 1px 4px #2c861f;
+    -moz-box-shadow: 0px -1px 4px #2c861f, 0 1px 4px #2c861f;
+    -o-box-shadow: 0px -1px 4px #2c861f, 0 1px 4px #2c861f;
+    box-shadow: 0px -1px 4px #2c861f, 0 1px 4px #2c861f;
+}
+.details .panel-heading {
+    background-color: #192a56;
+    border-bottom: 2px solid #0d162d;
+}
+.details .panel-body {
+    background-color: #f5f6fa;
+}
+.details .one,
+.details .two {
+    color: #2d3436;
+}
+.rate label {
+    background-color: #c5c5c5;
+    border: 1px solid #c5c5c5;
+}
+.add-comment h4 a {
+    color: #0097e6;
+}
+.comments-container {
+    background-color: #c5c5c5;
+    margin-left: -20px;
+    margin-right: -20px;
+    box-shadow: none;
+}
+.comments-container .custom-hr {
+    border-color: #dcdde1;
+}
+.comment-box .first-span {
+    background-color: #192a56;
+}
+.comment-box .second-span {
+    background-color: #f5f6fa;
+    color: #2f3640;
+}
+.comment-box img:hover {
+    border-color: #192a56;
+}
+.comments-container .comment-box .col-sm-2 .the-return {
+    background-color: #192a56;
+}
+.similar, .recently {
+    background-color: #c5c5c5;
+}
+.recently-h3 span {
+    color: #192a56;
+}
+/* end items page */
+
+/* start cart page */
+
+.shop-cart-empty {
+    border: none;
+    background-color: #f5f6fa;
+}
+.shop-cart .item-cart .delete-from-cart {
+    background-color: #c23616;
+    opacity: 1;
+}
+.shop-cart .item-cart .delete-from-cart:hover {
+    background-color: #e84118;
+}
+.shop-cart .item-cart .item-information {
+    color: #718093;
+}
+.shop-cart .item-cart .item-name {
+    background-color: #192a56;
+    color: #f5f6fa;
+}
+.shop-cart .item-cart p {
+    color: #2f3640;
+}
+.shop-cart hr {
+    border-top-color: #f5f6fa;
+}
+.buy-product {
+    background-color: #DCDDE3;
+    color: #2f3640;
+}
+.buy-product span a {
+    color: #2f3640;
+}
+/* end cart page */
+
+/* start messages page */
+
+.messages-panel .messages-sender.active {
+    background-color: #192a56;
+}
+.messages-panel .messages-chat .messages-dialog .outcome {
+    background-color: #c23616;
+}
+/* end messages page */
+
+/* start contact page */
+
+.contact {
+    backface-visibility: #f5f6fa;
+}
+.contact .contact-container {
+    background-color: #f5f6fa;
+}
+.contact .more-info p {
+    color: #192a56;
+}
+.contact .contact-form {
+    background-color: #718093;
+    box-shadow: 3px 3px 6px #7f8fa6;
+}
+.contact .contact-form form input,
+.contact .contact-form form textarea {
+    background-color: #7f8fa6;
+    border: none;
+    
+}
+.contact .contact-form form input::placeholder,
+.contact .contact-form form textarea::placeholder {
+    color: #dcdde1;
+}
+.contact .contact-form form input[type='submit'] {
+    background-color: #192a56;
+}
+/* end contact page */
